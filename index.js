@@ -1,13 +1,9 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true
-  },
-  extends: [
-    'eslint:recommended',
-    'prettier',
+  plugins: [
+    '@typescript-eslint'
   ],
-  rules: {
-    'import/newline-after-import': 'error'
-  }
+  parser: '@typescript-eslint/parser',
+  extends: [
+    '@allen-packages/eslint-config'
+  ],
 }
