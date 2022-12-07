@@ -1,0 +1,17 @@
+{
+  "name": "@allen-packages/eslint-config",
+  "version": "0.0.4",
+  "type": "commonjs",
+  "main": "./index.js",
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.29.0",
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  },
+  "packageManager": "yarn@3.3.0"
+}
